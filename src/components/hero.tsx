@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-const hero = () => {
+const Hero = () => {
   const router = useRouter();
   return (
     
@@ -34,4 +34,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
